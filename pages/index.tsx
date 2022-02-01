@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
+import GiantPhone from "../images/giant-phone.png"
 
 const Home: NextPage = () => {
     return (
@@ -11,10 +13,10 @@ const Home: NextPage = () => {
             </Head>
 
             <main className="flex align-center justify-center">
-                <h1 className={"text-3xl text-slate-50 font-bold underline"}>
+                <h1 className={"text-3xl font-bold m-5"}>
                     Why Privacy?
                 </h1>
-
+                <Image src={GiantPhone} alt="Giant Phone" className={"w-1/2"} />
 
             </main>
 
