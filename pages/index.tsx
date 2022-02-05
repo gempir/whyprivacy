@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import GiantPhone from "../images/giant-phone.png"
 
 const Home: NextPage = () => {
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="flex align-center justify-center flex-col px-2">
+            <main className="flex align-center justify-center flex-col p-5">
                 <div className="text-center">
                     <h1 className={"text-3xl font-bold mt-5"}>
                         Why Privacy?
@@ -71,8 +72,8 @@ const Home: NextPage = () => {
 
             </main>
 
-            <footer>
-
+            <footer className="p-5 text-center">
+                <Link href={"/privacy"}>Privacy Policy</Link>
             </footer>
         </div>
     )
