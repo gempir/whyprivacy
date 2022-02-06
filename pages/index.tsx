@@ -28,46 +28,55 @@ const Home: NextPage = () => {
                 <h2 id="secrecy" className={"text-2xl font-bold mt-5"}>
                     Privacy is not secrecy
                 </h2>
-                <h3 id="hide" className={"text-xl font-bold my-2 text-neutral-500"}>
+                <h3 id="hide" className={"text-xl font-bold my-1 text-neutral-500"}>
                     “You have nothing to hide”
                 </h3>
                 <p>
-                    - You have drapes on your windows because you wouldn’t want everyone to look in
-                    - You close the bathroom door
-                    - Your medical history?
-                    - Your political vote
-                    - People will take advantage of you for if you publicize everything
+                    You have drapes on your windows, you close the bathroom door, you vote alone. 
+                    Even with nothing to hide, privacy does not mean everyone needs to know everything about you.
                 </p>
 
-                <h2 id="value" className={"text-2xl font-bold mt-5"}>
-                    Your data has value
-                </h2>
-                <p>
-                    - Why give something away for free? You’re not a charity
-                    - Be aware of the trade you are doing
-                    - No company is in the business of giving away something for free
-                    - Google makes money off of your searches
-                    - Giveaways on social media drive traffic to the companies social media channels
-                    - Free trials are a way to drive customers to buy subscriptions in the future
-                </p>
-
-                <h2 id="right" className={"text-2xl font-bold mt-5"}>
+                <h2 id="right" className={"text-2xl font-bold mt-5 mb-1 "}>
                     Privacy is a right and it hasn&apos;t always been
                 </h2>
                 <p>
-                    - Freedom of Speech, The Right to Vote, The Right to Divorce in a lot of countries all of these rights aren’t a given
-                    - You can chose not to exercise that right, but that does not mean everyone has to make the same choice
-                    - If you post about your children every day on Facebook, Tiktok you don’t give them any choice
-                    - In 10 Years they might resent you for posting every detail of their life online, you didn’t give them any choice
+                    Freedom of speech, the right to vote, the right to divorce, freedom from discrimination aren&apos;t a given in every country or time.
+                    <p>
+                    You can chose to not exercise your right of privacy, but everyone else should have the choice to do so.
+                    </p>
+                    <p>
+                    In ten years you might feel differently, but if you don&apos;t defend your rights now you might not be able to excercise them in the future.
+                    </p>
                 </p>
 
-                <h2 id="against" className={"text-2xl font-bold mt-5"}>
-                    Your data can be used against you
+                <h2 id="value" className={"text-2xl font-bold mt-5 mb-1"}>
+                    Your data has value
+                </h2>
+                <p className="flex flex-col gap-2">
+                    <p>
+                        Similarily how you would pay for a plumber fixing your sink you should consider the cost when 
+                        you pay with your privacy for services. 
+                    </p>
+                    <p>
+                        No Company is in the business of giving something away for free. Giveaways drive traffic to their products, free trials are 
+                        a way to to drive customers to buy subscriptions in the future.
+                    </p>
+                    <p>
+                        Be concious of the trade you are doing. 
+                    </p>
+                </p>
+
+                <h2 id="against" className={"text-2xl font-bold mt-5 mb-1 "}>
+                    You lose control of your data
                 </h2>
                 <p>
-                    - What if you go into a high role in 30 years, maybe a CEO of a big company?
-                    - Every piece of information will be used against you
-                    - Oh you used Tinder in your 20s, Oh just a sleezy man looking for a quick one night stand
+                    <p>
+                    Data never stays where it should, companies sell it, hackers gain access to it or managers find a way to repurpose it.
+                    </p>
+                    <p>
+                    Combining multiple data points from different sources can be a great way to build a profile.
+                    Suddendly more people know where you live, work, previous partners, sexual preferences or where they will find you next sunday.
+                    </p>
                 </p>
 
             </main>
