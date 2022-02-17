@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                             <Image src={UndrawWebDevices} alt="Web devices" layout='fill' objectFit='contain' />
                         </div>
                     </div>
-                    <h2 id="secrecy" className={"text-2xl font-bold mt-5"}>
+                    <h2 id="secrecy" className={"text-2xl font-bold mt-10"}>
                         Privacy is not secrecy
                     </h2>
                     <div className="flex gap-5">
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
 
 
 
-                    <h2 id="right" className={"text-2xl font-bold mt-5 mb-1 "}>
+                    <h2 id="right" className={"text-2xl font-bold mt-10 mb-1 "}>
                         Privacy is a right and it hasn&apos;t always been
                     </h2>
                     <div className="flex gap-5">
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                     </div>
 
 
-                    <h2 id="value" className={"text-2xl font-bold mt-5 mb-1"}>
+                    <h2 id="value" className={"text-2xl font-bold mt-10 mb-1"}>
                         Your data has value
                     </h2>
                     <div className='flex gap-5'>
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
                         </div>
                     </div>
 
-                    <h2 id="against" className={"text-2xl font-bold mt-5 mb-1 "}>
+                    <h2 id="against" className={"text-2xl font-bold mt-10 mb-1 "}>
                         You lose control of your data
                     </h2>
                     <div className='flex gap-5'>
