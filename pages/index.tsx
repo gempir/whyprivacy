@@ -1,12 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Phone from "../images/phone.png"
-import Videocall from "../images/videocall.png"
-import Walking from "../images/walking.png"
-import Graphs from "../images/graphs.png"
-import Reviews from "../images/reviews.png"
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import UndrawGrowthAnalytics from "../images/undraw_growth_analytics.svg";
+import UndrawPublicDiscussion from "../images/undraw_public_discussion.svg";
+import UndrawSecurity from "../images/undraw_security.svg";
+import UndrawWallPost from "../images/undraw_wall_post.svg";
+import UndrawWebDevices from "../images/undraw_web_devices.svg";
 
 const Home: NextPage = () => {
     return (
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
                             Why you should care about your privacy
                         </h3>
                         <div className="h-28 block relative">
-                            <Image src={Phone} alt="Giant Phone" layout='fill' objectFit='contain' />
+                            <Image src={UndrawWebDevices} alt="Web devices" layout='fill' objectFit='contain' />
                         </div>
                     </div>
                     <h2 id="secrecy" className={"text-2xl font-bold mt-5"}>
@@ -43,8 +43,8 @@ const Home: NextPage = () => {
                                 Even with nothing to hide, privacy does not mean everyone needs to know everything about you.
                             </p>
                         </div>
-                        <div className='w-full relative'>
-                            <Image src={Videocall} alt="Video Call" layout='fill' objectFit='contain' />
+                        <div className='w-full relative min-h-[10rem]'>
+                            <Image src={UndrawSecurity} alt="Security" layout='fill' objectFit='contain' />
                         </div>
                     </div>
 
@@ -54,8 +54,8 @@ const Home: NextPage = () => {
                         Privacy is a right and it hasn&apos;t always been
                     </h2>
                     <div className="flex gap-5">
-                        <div className='w-full relative'>
-                            <Image src={Walking} alt="Walking" layout='fill' objectFit='contain' />
+                        <div className='w-full relative min-h-[10rem]'>
+                            <Image src={UndrawPublicDiscussion} alt="Public discussion" layout='fill' objectFit='contain' />
                         </div>
                         <p>
                             Freedom of speech, the right to vote, the right to divorce, freedom from discrimination aren&apos;t a given in every country or time.
@@ -86,8 +86,8 @@ const Home: NextPage = () => {
                                 Be concious of the trade you are doing.
                             </p>
                         </p>
-                        <div className='w-full relative'>
-                            <Image src={Graphs} alt="Graphs" layout='fill' objectFit='contain' />
+                        <div className='w-full relative min-h-[10rem]'>
+                            <Image src={UndrawGrowthAnalytics} alt="Graphs" layout='fill' objectFit='contain' />
                         </div>
                     </div>
 
@@ -104,8 +104,8 @@ const Home: NextPage = () => {
                                 Suddendly more people know where you live, work, previous partners, sexual preferences or where they will find you next sunday.
                             </p>
                         </p>
-                        <div className='w-full relative'>
-                            <Image src={Reviews} alt="Reviews" layout='fill' objectFit='contain' />
+                        <div className='w-full relative min-h-[10rem]'>
+                            <Image src={UndrawWallPost} alt="Reviews" layout='fill' objectFit='contain' />
                         </div>
                     </div>
 
